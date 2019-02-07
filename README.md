@@ -44,7 +44,6 @@ Make sure ROS is correctly installed
 
    ```
    roslaunch bebop_driver bebop_node.launch
-   
    ```
    
 ## Autonomous AR_mark Tracking - Fuzzy Controller ##
