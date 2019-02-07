@@ -236,6 +236,7 @@ class Lecture_Marker:
 			twist.linear.y  = 0
 			twist.angular.z = 0
 		
+		print twist
 		self.movePub.publish(twist)
 
    
