@@ -67,7 +67,9 @@ Make sure ROS is correctly installed
    roslaunch mark_track ar_pose_bebop.launch
    ```
    
-A rviz window will open automatically. you will see somenthig like this:
+A window of rviz will open automatically. You will see something like this:
+
+
 ![](https://github.com/dvalenciar/Fuzzy_Control_with_AR_mark_Tracking-Bebop2/blob/master/imageRviz.png)
 
 2. Download and print the ar_tag mark. Available [here](https://github.com/dvalenciar/Fuzzy_Control_with_AR_mark_Tracking-Bebop2/blob/master/4x4_384_20.gif)
