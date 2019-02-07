@@ -15,7 +15,7 @@ This package depends on:
 
 Make sure ROS is correctly installed
 
-1. Create and initialize the workspace (if you already have  bebop_autonomy package  installed you can omit this part)
+1. Create and initialize the workspace
   
    ``` 
    mkdir -p ~/bebop_ws/src
