@@ -51,9 +51,14 @@ Make sure ROS is correctly installed
    ```
    roslaunch bebop_driver bebop_node.launch
    ```
-   
+6. Takeoff your Drone
+  
+   ```
+   rostopic pub -1 /bebop/takeoff std_msgs/Empty
+   ```
+ 
 ## Autonomous AR_mark Tracking - Fuzzy Controller ##
 
-
+  
    
    
