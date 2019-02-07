@@ -1,4 +1,4 @@
-# Fuzzy Control with AR mark Tracking for Parrot Bebop 2
+# Fuzzy Control with AR mark Tracking for Parrot Bebop Drone 
 
 ## Pre-requisites
 * Operation System
