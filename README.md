@@ -25,7 +25,7 @@ Make sure ROS is correctly installed
 2. Download dependencies and built the package
    
    ``` 
-   git clone https://github.com/AutonomyLab/bebop_autonomy.git                            #Bebop Drone ROS Driver
+   git clone https://github.com/AutonomyLab/bebop_autonomy.git                 #Bebop Drone ROS Driver
    git clone https://github.com/dvalenciar/Fuzzy_Control_with_AR_mark_Tracking-Bebop2.git
    cd..
    rosdep update
