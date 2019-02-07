@@ -80,7 +80,7 @@ A window of rviz will open automatically. You will see something like this:
 
 3.  Run the fuzzy controller (**Be careful, Drone will start moving.**) 
 
-    If the drone detects the ar_mark it will move and track the ar_mark AUTONOMOUSLY. In the case of not detecting any mark,     the drone will maintain its position
+    If the drone detects the ar_mark it will move and track ar_mark. In the case of not detecting any mark, the drone will maintain its position
    
    
    ```
