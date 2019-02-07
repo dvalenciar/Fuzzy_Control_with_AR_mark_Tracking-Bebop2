@@ -75,15 +75,21 @@ A window of rviz will open automatically. You will see something like this:
 2. Download and print the ar_tag mark. Available [here](https://github.com/dvalenciar/Fuzzy_Control_with_AR_mark_Tracking-Bebop2/blob/master/4x4_384_20.gif)
 
    ```
-   Move the ar_tag mark pointing to the Drone's camera. You will see how the algorithm detects the mark even if you rotate      it.
+   Move the ar_mark pointing to the Drone's camera. You will see how the algorithm detects the mark even if you rotate      it.
    ```
 
 3.  Run the fuzzy controller (**Be careful, Drone will start moving.**) 
 
-    If the drone detects the mark it will move and track the mark AUTONOMOUSLY. In the case of not detecting any mark, the       drone will maintain its position
+    If the drone detects the ar_mark it will move and track the ar_mark AUTONOMOUSLY. In the case of not detecting any mark,     the drone will maintain its position
    
    
    ```
    rosrun mark_track position_track_fuzzy.py
-   
    ```
+   
+## Autonomous AR_mark Example Video ##
+
+https://www.youtube.com/watch?v=7wDhm-8efFE&t=3s
+
+
+
