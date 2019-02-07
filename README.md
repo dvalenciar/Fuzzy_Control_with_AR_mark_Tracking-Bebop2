@@ -60,5 +60,7 @@ Make sure ROS is correctly installed
 ## Autonomous AR_mark Tracking - Fuzzy Controller ##
 
   
-   
-   
+  
+  
+   roslaunch mark_track ar_pose_bebop.launch
+   rosrun mark_track position_track_fuzzy.py
