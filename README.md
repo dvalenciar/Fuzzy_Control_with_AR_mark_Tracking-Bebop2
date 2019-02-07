@@ -11,8 +11,10 @@ This package depends on:
 * [bebop_autonomy package](https://github.com/AutonomyLab/bebop_autonomy)
   * For more Information about this package, please visit this [page](https://bebop-autonomy.readthedocs.io/en/latest/index.html) 
 
-## Getting started
+## Getting started ## (if you already have installed bebop repository you can omit this part)
 
-Make sure ROS and GAZEBO are correctly installed
+Make sure ROS is correctly installed
 
-1. Create a workspace for the simulator
+1. Create and initialize the workspace
+   
+   mkdir -p ~/bebop_ws/src
