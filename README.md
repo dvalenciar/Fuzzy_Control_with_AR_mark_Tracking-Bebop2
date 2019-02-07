@@ -8,7 +8,7 @@
   * [ROS](http://wiki.ros.org/kinetic/Installation/Ubuntu) (Kinetic)
 
 This package depends on:
-* [ardrone_autonomy package](https://github.com/AutonomyLab/ardrone_autonomy)
+* [bebop_autonomy package](https://github.com/AutonomyLab/bebop_autonomy)
 
 ## Getting started
 
