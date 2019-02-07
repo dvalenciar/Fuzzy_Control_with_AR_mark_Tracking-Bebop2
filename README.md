@@ -78,7 +78,7 @@ A window of rviz will open automatically. You will see something like this:
    Move the ar_tag mark pointing to the Drone's camera. You will see how the algorithm detects the mark even if you rotate      it.
    ```
 
-3.  Run the fuzzy controller **Carefull Drone will start move** 
+3.  Run the fuzzy controller (**Be careful, Drone will start moving.**) 
 
   If the drone detects the mark it will start to move  AUTONOMOUSLY and it will track the mark. In the case of not detecting   any mark the drone will maintain its position
    
