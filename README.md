@@ -9,7 +9,7 @@
 
 This package depends on:
 * [bebop_autonomy package](https://github.com/AutonomyLab/bebop_autonomy)
-  * For more Information about this package, please visit this [link](https://bebop-autonomy.readthedocs.io/en/latest/index.html) 
+  * For more Information about this package, please visit this [page](https://bebop-autonomy.readthedocs.io/en/latest/index.html) 
 
 ## Getting started
 
