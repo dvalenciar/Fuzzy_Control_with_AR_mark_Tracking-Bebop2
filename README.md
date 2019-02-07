@@ -9,8 +9,7 @@
 
 This package depends on:
 * [ar_tools_package](http://wiki.ros.org/ar_tools)
-* [bebop_autonomy package](https://github.com/AutonomyLab/bebop_autonomy)
-  * For more Information about this package, please visit this [page](https://bebop-autonomy.readthedocs.io/en/latest/index.html) 
+* [bebop_autonomy package](https://bebop-autonomy.readthedocs.io/en/latest/index.html)
 
 ## Getting started 
 
