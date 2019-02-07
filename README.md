@@ -59,8 +59,29 @@ Make sure ROS is correctly installed
  
 ## Autonomous AR_mark Tracking - Fuzzy Controller ##
 
-  
-  
-  
+1. Open a new terminal and Run the ar_pose package launch
+   
+   ```
+   cd ~/bebop_ws/src
+   source devel/setup.bash
    roslaunch mark_track ar_pose_bebop.launch
+   ```
+   
+A rviz window will open automatically. you will see somenthig like this:
+![](https://github.com/dvalenciar/Fuzzy_Control_with_AR_mark_Tracking-Bebop2/blob/master/imageRviz.png)
+
+2. Download and print the ar_tag mark. Available [here](https://github.com/dvalenciar/Fuzzy_Control_with_AR_mark_Tracking-Bebop2/blob/master/4x4_384_20.gif)
+
+   ```
+   Move the ar_tag mark pointing to the Drone's camera. You will see how the algorithm detects the mark even if you rotate      it.
+   ```
+
+3.  Run the fuzzy controller **Carefull Drone will start move** 
+
+  If the drone detects the mark it will start to move  AUTONOMOUSLY and it will track the mark. In the case of not detecting   any mark the drone will maintain its position
+   
+   
+   ```
    rosrun mark_track position_track_fuzzy.py
+   
+   ```
