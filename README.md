@@ -39,8 +39,10 @@ Make sure ROS is correctly installed
    ```
    source devel/setup.bash
    ```
-   
-4. Launch the Driver
+4. Turn on your drone, wait until the drone booted and connect your computer to the drone's access point
+ 
+ 
+5. Launch the Bebop Driver
 
    ```
    roslaunch bebop_driver bebop_node.launch
