@@ -91,5 +91,5 @@ A window of rviz will open automatically. You will see something like this:
 
 https://www.youtube.com/watch?v=7wDhm-8efFE&t=3s
 
-
+![](https://github.com/dvalenciar/Fuzzy_Control_with_AR_mark_Tracking-Bebop2/blob/master/pic.png)
 
