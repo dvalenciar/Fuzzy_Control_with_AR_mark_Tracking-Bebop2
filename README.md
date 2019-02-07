@@ -11,7 +11,7 @@ This package depends on:
 * [bebop_autonomy package](https://github.com/AutonomyLab/bebop_autonomy)
   * For more Information about this package, please visit this [page](https://bebop-autonomy.readthedocs.io/en/latest/index.html) 
 
-## Getting started ## (
+## Getting started 
 
 Make sure ROS is correctly installed
 
@@ -22,8 +22,30 @@ Make sure ROS is correctly installed
    cd ~/bebop_ws/src
    catkin_init_workspace
    ``` 
-2. Download dependencies
+2. Download dependencies and built the package
    
    ``` 
-   git clone https://github.com/AutonomyLab/bebop_autonomy.git                   #Bebop Drone ROS Driver
-   git clone 
+   git clone https://github.com/AutonomyLab/bebop_autonomy.git                            #Bebop Drone ROS Driver
+   git clone https://github.com/dvalenciar/Fuzzy_Control_with_AR_mark_Tracking-Bebop2.git
+   cd..
+   rosdep update
+   rosdep install --from-paths src -i
+   catkin_make
+   ``` 
+   
+3. Source the environment
+   
+   ```
+   source devel/setup.bash
+   ```
+   
+4. Launch the Driver
+
+   ```
+   roslaunch bebop_driver bebop_node.launch
+   
+   ```
+   
+   ## Autonomous AR_mark Tracking - Fuzzy Controller ##
+   
+   
